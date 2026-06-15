@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "R99",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"lv_conf_internal.h": "c",
+			"ui.h": "c"
+		}
+	}
+}
