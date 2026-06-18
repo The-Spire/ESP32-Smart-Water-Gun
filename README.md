@@ -55,6 +55,7 @@
 **💻 软件配置：**
 * **IDE：** VScode + platformio
 * **框架：** Arduino
+* **UI：** LVGL-8.3.10
 
 🔗 **源代码开源地址：** https://github.com/The-Spire/ESP32-Smart-Water-Gun
 
