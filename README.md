@@ -1,5 +1,5 @@
 ## 🎬 视频链接
-🔗 [B站视频--功能演示及介绍](https://www.bilibili.com/)
+🔗 [B站视频--功能演示及介绍](https://www.bilibili.com/video/BV1XJLf6tEHA/)
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 📜 2. 描述
 本项目还原了游戏中的屏幕显示、烟雾和射击效果。另外加入了水泵、激光器、音效系统，并开发了完整的 UI 设置界面。
-
+可以作为玩具、摆件或CosPlay道具使用。
 
 
 <div align="center">
