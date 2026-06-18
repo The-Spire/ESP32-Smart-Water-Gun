@@ -39,6 +39,7 @@
 ## 🛠️ 4. 硬件架构
 <img src="https://github.com/user-attachments/assets/da59e916-b238-45a4-8e91-a446cfbb76f0" width="80%" />
 <br /><br />
+
 * 🧠 **MCU：** ESP32-C3
 * 📺 **屏幕：** 0.95寸彩色OLED
 * 🕹️ **交互：** 编码器输入
@@ -68,7 +69,7 @@ src/
 ```
 
 ### ⚙️ 设置系统
-通过旋转编码器导航，短按扳机进入/编辑，长按扳机保存并返回。
+**操作逻辑：**通过旋转编码器导航，短按扳机进入/编辑，长按扳机保存并返回。
 <img src="https://github.com/user-attachments/assets/9a84151d-c258-4d61-bf87-12d102303147" width="80%" />
 <br /><br />
 
