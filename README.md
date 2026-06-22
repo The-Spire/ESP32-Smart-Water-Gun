@@ -121,3 +121,29 @@ src/
 ## 🔧 7. 组装说明
 
 🚧 组装说明施工中...近期更新
+## 🛠️ 8. 程序烧录
+**所需工具：**
+乐鑫官方烧录工具 **Flash Download Tools** (仅支持 Windows)
+👉 [点击去官网下载]([https://www.espressif.com.cn/zh-hans/support/download/other-tools](https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32/production_stage/tools/flash_download_tool.html))
+
+**烧录步骤：**
+1. 下载工具并解压，双击运行 `flash_download_tool_xxx.exe`。
+2. 在弹出的黑色窗口后，会出现一个设置界面：
+   * **Chip Type** (芯片型号): 选择 **ESP32-C3**
+   * **WorkMode** (工作模式): 选择 **Develop**
+   * 点击 **OK**。
+3. 用数据线将水枪的 ESP32-C3 开发板连接到电脑。
+4. 在release中下载程序包并解压。
+5. 在打开的烧录主界面中，按以下**严格的顺序和地址**，勾选并添加刚才下载的 3 个 `.bin` 文件：
+   * 勾选第1行，点击 `...` 选择 `bootloader.bin`，后面地址填：**`0x0`**
+   * 勾选第2行，点击 `...` 选择 `partitions.bin`，后面地址填：**`0x8000`**
+   * 勾选第3行，点击 `...` 选择 `firmware.bin`，后面地址填：**`0x10000`**
+6. 在界面下方设置项（通常保持默认即可）：
+   * **SPI SPEED**: 40MHz
+   * **SPI MODE**: DIO
+   * **COM**: 选择开发板对应的串口（如 COM3）
+   * **BAUD**: 460800 或 115200
+7. 点击底部的 **START** 开始烧录。
+8. 等待进度条走完显示 **FINISH**，断开并重新连接开发板电源即可运行！
+
+***
