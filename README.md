@@ -37,7 +37,7 @@
 ---
 
 ## 🛠️ 4. 硬件架构
-🔗 **硬件电路开源地址：**
+🔗 **硬件电路开源地址：** https://oshwhub.com/sureph/r99-1
 
 <img src="https://github.com/user-attachments/assets/da59e916-b238-45a4-8e91-a446cfbb76f0" width="80%" />
 <br /><br />
@@ -124,7 +124,7 @@ src/
 ## 🛠️ 8. 程序烧录
 **所需工具：**
 乐鑫官方烧录工具 **Flash Download Tools** (仅支持 Windows)
-👉 [点击去官网下载]([https://www.espressif.com.cn/zh-hans/support/download/other-tools](https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32/production_stage/tools/flash_download_tool.html))
+👉 [点击去官网下载](https://dl.espressif.com/public/flash_download_tool.zip)
 
 **烧录步骤：**
 1. 下载工具并解压，双击运行 `flash_download_tool_xxx.exe`。
