@@ -32,8 +32,7 @@
 ---
 
 ## 🧩 3. 结构模型
-🔗 **模型开源地址：** https://makerworld.com.cn/zh/my/models/drafts/25847941/edit
-
+🔗 **模型开源地址：** https://makerworld.com.cn/zh/models/2639069-r99-dao-ren-zhi-neng-shui-qiang#profileId-3047151
 ---
 
 ## 🛠️ 4. 硬件架构
